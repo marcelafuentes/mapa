@@ -1,0 +1,129 @@
+body{
+    background:#cc9;
+    /*background:#181907;*/
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    margin: 0;
+}
+ 
+#registrar{
+        float:left;
+        width:100%;
+        font-size:30px;
+        font-weight:bold;
+        color:pink;
+        text-align:center;
+}
+ 
+#envoltura{
+    position:absolute;
+    left:50%;
+    top:60%;
+    margin-left:-175px;
+    margin-top: -210px;
+    width: 360px;
+ 
+}
+ 
+#contenedor{
+    background-color:orange;
+    /*background-color:#356AA0;*/
+    /*box-shadow: 0 0 0 9px rgba(128,0,0,.1);*/
+    /*Margen de sombra alrededor del contenedor 8px negro*/
+    box-shadow: 3px 3px 10px 5px rgba(0,0,0,.8);
+    /*Las 3 líneas siguientes, sirven para el borde redondeado
+     * pero para diferentes navegadores*/
+    -webkit-border-radius:15px;
+    -moz-border-radius:15px;
+    border-radius:15px;
+}
+ 
+#cabecera{
+    /*linea azul que separa logo*/
+    border-bottom: 5px solid blue;
+    padding-top: 10px;
+    /*color:#FFF;*/
+    height:70px;
+    line-height:50px;
+    text-align:center;
+}
+ 
+#cuerpo{
+    background:#35FF33;
+    border:solid #FFE333;
+    /*aumentando el 2px 'aparece' un borde*/
+    border-width: 2px 0;
+    padding:15px 35px;
+}
+ 
+label{
+    color:black;
+    font-weight: bold
+}
+ 
+input{
+    /*border: 1px solid #999; No usar esta línea y dejar box-shadow hace efecto de profundidad*/
+    border-radius:5px; /*probar con 10px se hacen ovalados los inputs*/
+    box-shadow: 2px 2px 3px 1px rgba(0,0,0,.8);
+    font:bold 12px Arial black, arial, sans-serif;
+    height: 24px;
+    line-height: 20px;
+    padding:0 2px;
+    width: 230px;
+}
+ 
+input#usuario{
+    background:pink url(pikachus.png/images)  no-repeat 0 2px; 
+    height: 100;
+    width:100;
+    padding-left: 30px; 
+}
+ 
+input#contrasenia{
+    background:#ffc url(prueba.jpg/images) no-repeat 0 5px;
+    padding-left: 25px;
+ 
+}
+ 
+.boton{
+    background: #F79A8E;
+   
+    background: -webkit-linear-gradient(top,#fc6,#f63);
+    background: linear-gradient(top,#fc6,#f63);
+    
+    /*Color del texto*/
+    color: #666;
+    width: 120px;
+}
+ 
+/*Tip estas instrucciones animan al boton enviar
+ * para que se vea como si se pulsara*/
+.boton:active{
+    position: relative;
+    top: 3px;
+}
+ 
+#pie{
+    border-top: 5px solid blue;
+    color: black;
+    font-size: 11px;
+    height: 25px;
+    line-height: 24px;
+    text-align: center;
+}
+ 
+form,p{
+    margin:0;
+}
+ 
+p{
+    /*Para que los elementos del cuerpo
+     * se separen entre ellos probar con
+     * 10px 20px                      */
+    padding-bottom: 5px;
+}
+ 
+/*Para separar el botón de ingresar*/
+p#bot{
+    padding-top: 10px;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "clima",
+  "version": "1.0.0",
+  "description": "clima",
+  "main": "angular.min.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "/js/script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcelafuentes/mapa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcelafuentes/mapa/issues"
+  },
+  "homepage": "https://github.com/marcelafuentes/mapa#readme"
+}
